@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
+
+body {
+    font-family: 'Cormorant SC', serif;
+}
+
+p {
+    font-family: 'Cookie', cursive;
+}
+
+#logo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo_bild {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://cdn.discordapp.com/attachments/984071998030356480/996735361831153664/static_1.png);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#logo_text a {
+    font-size: 50px;
+    text-decoration: none;
+    color: purple;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Cockie', cursive;
+    font-size: 25px
+}
+
+#nav ul li {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#nav ul li:hover {
+    cursor:pointer;
+    color: lightseagreen
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
